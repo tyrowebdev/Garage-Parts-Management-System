@@ -1,0 +1,99 @@
+@charset "ISO-8859-1";
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #66e0ff;
+}
+
+/******** CSS For Navbar ************/
+nav .navbar {
+	padding: 10px;
+	width: 100%;
+	background-color: #000099;
+}
+
+nav .navbar ul li {
+	padding: 10px;
+	margin: 0 10px;
+	display: inline-block;
+}
+
+nav .navbar ul li a {
+	padding:8px;
+	color: white;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+nav .navbar ul li a:hover{
+	background-color: white;
+	color: black;
+}
+
+/******* CSS for body ********/
+
+.box{
+	margin-top: 200px;	
+
+}
+
+.box h1{
+	font-size: 3vw;
+	margin-bottom: 30px;
+}
+
+.box2 {
+	margin-top: 80px;
+}
+
+.box2 table thead{
+	background-color: #ccffff;
+}
+
+.box2 table thead tr th{
+	padding: 10px;
+}
+
+.box2 table tr td{
+	padding: 10px;
+	background-color: white;
+}
+
+.box2 table tr td button {
+	background: #00ff00;
+	padding: 10px;
+}
+
+.box3{
+	
+	border: 2px solid black;
+	margin: 150px 20%;
+	padding: 20px;
+	background-color: #ccffff;
+}
+
+.box3 table tr td {
+	padding: 10px;
+}
+
+.box3 form button {
+	width: 100px;
+	padding: 10px;
+	background: #00ff00;
+}
+
+.box4{
+	margin-top: 200px;
+	font-size: 1.5vw;
+	margin-bottom: 30px;
+}
+
+.box4 a{
+	text-decoration: none;
+	color: blue;
+}
